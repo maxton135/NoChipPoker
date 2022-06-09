@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/eel.js"></script>
+    <title>NoChips?Poker</title>
+</head>
+<body>
+    <div id="logo-div" class="hidden spaced popup">
+        <h1 class="title-text">NO CHIP POKER</h1>
+        <button id="to-setup-btn">Enter</button>
+    </div>
+    <div id="setup-div" class="spaced game-setup">
+        <div class="spaced logodiv">
+            <h1 class="title-text">
+                Enter Players
+            </h1>
+        </div>
+        <div class="spaced grid-container">
+            <div class="spaced rounded grid-cell">
+                <div class="profile profile-select">
+                    <h1 class="profile-img" id="player1-img">Fish</h1>
+                    <button class="profile-img-btn" id="player1-img-left"><</button>
+                    <button class="profile-img-btn" id="player1-img-right">></button>
+                </div>
+                <input class="profile rounded profile-text-field" type="text" id="player1-name" placeholder="Player 1 Name">
+                <button class="profile ready-btn" id="player1-btn">READY</button>
+            </div>
+            <div class="spaced grid-cell">Player 2</div>
+            <div class="spaced grid-cell">Player 3</div>
+            <div class="spaced grid-cell">Player 4</div>
+            <div class="spaced grid-cell">Player 5</div>
+            <div class="spaced grid-cell">Player 6</div>
+        </div>
+    </div>
+    <div id="game-div" class="hidden spaced game-play">Gameplay</div>
+</body>
+
+
+
+</html>

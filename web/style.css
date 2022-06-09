@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #2c5364, #203a43);
+    border-radius: 6px;
+}
+
+.title-text{
+    color: white;
+    padding: 100px 0;
+}
+
+.hidden{
+    display:none;
+}
+
+.spaced{
+    padding: 10px;
+    margin: 10px;
+}
+
+.popup{
+    text-align: center;
+}
+
+#logoimg{
+    border: 3px solid black;
+}
+
+.game-setup{
+    border: 3px solid black;
+}
+
+.game-play{
+    border: 3px solid black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-cell{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 3px solid black;
+    width: 100%;
+    background-color: rgb(245, 245, 245, 0.5);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.player-header{
+    width: 100%;
+}
+
+.profile{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.ready-btn{
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    font-size: 200%;
+    font-style: sans-serif;
+    text-align: center;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+.profile-img{
+    width: 100%;
+    text-align: center;
+}
+
+.profile-img-btn{
+    width: 40%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    font-size: 150%;
+}
+
+.profile-text-field{
+    font-size: 200%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
